@@ -14,6 +14,11 @@ function News() {
           campaigns, and company news.
         </p>
         <ListPost data={NEWS_TIPS} />
+        <div className="flex justify-center	">
+          <button className="mt-10 bg-blue-600 text-white font-semibold p-2 w-52">
+            Load More
+          </button>
+        </div>
       </div>
     </div>
   );

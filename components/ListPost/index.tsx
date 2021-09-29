@@ -7,11 +7,11 @@ interface PropData {
 }
 function ListPost({ data }: PropData) {
   return (
-    <div className="flex flex-wrap" style={{ margin: "20px -20px 0px -8px" }}>
+    <div className="flex flex-wrap" style={{ margin: "20px -17px 0px -16px" }}>
       {data.map((item: any, index: number) => (
         <div
           key={index}
-          className="flex flex-wrap	 border-2 border-black mt-10 max-w-1/3 ml-2 mr-2"
+          className="flex flex-wrap	 border-2 border-black mt-10 max-w-1/3 ml-4 mr-2 2xl:max-w-2/3 2xl:ml-2"
         >
           <div className={Style.box_image}>
             <Image
