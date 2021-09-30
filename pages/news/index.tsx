@@ -4,18 +4,18 @@ import { NEWS_TIPS } from "../../constant";
 
 function News() {
   return (
-    <div id="website_tips">
-      <div className="container mx-auto px-20">
-        <h1 className="lg:text-7xl font-extrabold uppercase text-indigo-900 sm:text-6xl">
+    <div id="website_tips" className="w-full">
+      <div className="container mx-auto desktop:px-20 tablet:px-5 ipad:px-10">
+        <h1 className="font-extrabold text-indigo-900 uppercase lg:text-7xl sm:text-6xl">
           News
         </h1>
-        <p className="mt-7 text-xl max-w-xl">
+        <p className="max-w-xl text-xl mt-7">
           The latest updates from Jimdo including new features, community
           campaigns, and company news.
         </p>
         <ListPost data={NEWS_TIPS} />
-        <div className="flex justify-center	">
-          <button className="mt-10 bg-blue-600 text-white font-semibold p-2 w-52">
+        <div className="flex justify-center ">
+          <button className="p-2 mt-10 font-semibold text-white bg-blue-600 w-52">
             Load More
           </button>
         </div>

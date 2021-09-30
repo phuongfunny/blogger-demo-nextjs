@@ -7,3 +7,23 @@
     width: 100% !important;
   }
 }
+.post_box {
+  margin: 20px -17px 0px -16px;
+}
+.post_box__detail {
+  max-width: 355px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .post_box__detail {
+    max-width: 100%;
+  }
+  .post_box {
+    margin: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .post_box__detail {
+    max-width: 90% !important;
+  }
+}

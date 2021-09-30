@@ -9,8 +9,8 @@ import WebsitePost from "./components/WebsitePost";
 function Post() {
   return (
     <>
-      <div id="recent_post">
-        <div className="container mx-auto px-20">
+      <div id="recent_post" className="w-full">
+        <div className="container mx-auto desktop:px-20 tablet:px-1 ipad:px-10">
           <Banner />
           <PostList />
           <WebsitePost />

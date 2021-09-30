@@ -10,6 +10,16 @@ module.exports = {
       "1/3": "31%",
       "2/3": "32%",
     },
+    screens: {
+      tablet: "375px",
+      // => @media (min-width: 640px) { ... }
+      ipad: "768px",
+      laptop: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   variants: {
     extend: {},
