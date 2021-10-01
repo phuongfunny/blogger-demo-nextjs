@@ -10,7 +10,7 @@ function ListPost({ data }: PropData) {
   return (
     <div className={`flex flex-wrap ${Style.post_box}`}>
       {data.map((item: any, index: number) => (
-        <Link href="/post/[id]" as={`/post/${item.id}`} key={index}>
+        <Link href="/post/[id]" as={`/post/${item.id}`} key={index} passHref>
           <div
             key={index}
             className={`flex flex-wrap mt-10 border-2 border-black laptop:ml-4 laptop:max-w-1/3 2xl:max-w-2/3 2xl:ml-2 tablet:w-full tablet:max-w-full ${Style.post_box__detail}`}
